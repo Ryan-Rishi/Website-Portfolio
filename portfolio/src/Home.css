@@ -1,0 +1,36 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+  }
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+  }
+
+  .bio {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .bio h1 {
+    color: royalblue;
+  }
+
+  .NavBar {
+    position: fixed; /* Fixed position */
+    top: 0;         /* Align to the top */
+    left: 0;        /* Align to the left */
+    width: 100%;    /* Optional: Full width */
+    z-index: 1000;  /* Ensure it stays on top of other elements */
+    /* Additional styling */
+    background-color: #fff; /* Background color */
+  }
